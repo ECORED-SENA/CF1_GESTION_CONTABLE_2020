@@ -1,0 +1,106 @@
+//Colores base del material de formación
+$brand-color-dark: #A66D58;
+$text-color-dark: #fff;
+
+
+//Esto lo puede cambiar poe el color que quiera q sugiera el tema. (sE QUITA EL lighten)
+$brand-color-light: #D9A171;
+$text-color-light: white;
+$brand-color-secondary: #F2E9E4;
+
+$brand-color-optional: #C6C6C6;
+
+$brand-color-1: #A66D58;
+$brand-color-2: #D9A171;
+$brand-color-3: #F2E9E4;
+$brand-color-4: #6595BF;
+$brand-color-5: #AED3F2;
+
+.bg-azul-gradiente {
+    background-image: linear-gradient(#AED3F2, white);
+}
+.brand-color-optional {
+    background-color: $brand-color-optional !important;
+}
+
+h1 {
+    color:  #A66D58;
+}
+h2 {
+    color: #D9A171;
+}
+h3,h4 {
+    color:  #6595BF;
+}
+
+.text-color-1 {
+    color: $brand-color-1;
+}
+
+.text-color-2 {
+    color: $brand-color-2;
+}
+
+.text-color-3 {
+    color: $brand-color-3;
+}
+
+
+.text-color-4 {
+    color: $brand-color-4;
+}
+
+.text-color-secondary {
+    color: $brand-color-light;
+}
+
+#page-home {
+
+    h2 {
+        color: $brand-color-2;
+    }
+    h3,h4 {
+        color:   $brand-color-2
+    }
+
+}
+
+.bg-brand-color-secondary-rgba {
+    background: rgba(234, 230, 153, 0.40) !important;
+}
+
+.card-header.bg-color-1 {
+    background-color: $brand-color-1;
+    color: #ffffff;
+}
+
+.card-header.bg-color-2 {
+    background-color: $brand-color-light;
+    color: #ffffff;
+}
+
+.card-header.bg-color-3 {
+    background-color: $brand-color-2;
+    color: #ffffff;
+}
+
+.card-header.bg-color-4 {
+    background-color: #415214;
+    color: #ffffff;
+}
+
+#collapsableRuta1,#collapsableRuta11  {
+    .btn-link:after {
+        background-color: #415214;
+        width: 25px;
+        font-size: 15px;        
+    }
+}
+
+#collapsableRuta2 {
+    .btn-link:after {
+        background-color:$brand-color-1;
+        width: 25px;
+        font-size: 15px;        
+    }
+}
